@@ -12,7 +12,7 @@ const Header = (props) => {
       <div className={classes["main-image"]}>
         <img
           src={
-            "https://images.unsplash.com/photo-1612285344291-8a3378992bcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80"
+            "https://www.authenticfoodquest.com/wp-content/uploads/2022/01/1200_BestCulinaryDestinationsinTheWorldOnaPlate_AuthenticFoodQuest.jpg"
           }
           alt="Meals"
         />

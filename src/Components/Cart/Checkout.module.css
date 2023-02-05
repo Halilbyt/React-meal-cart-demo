@@ -1,0 +1,107 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  flex-direction: column;
+  background-color: rgb(218, 182, 129);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.control {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.control input,
+label {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.actions {
+  display: flex;
+  position: relative;
+  gap: 1rem;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.actions button {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  background-color: rgb(53, 24, 5);
+  color: #f1f1f1;
+  font-size: 1rem;
+}
+
+.actions button:hover {
+  background-color: #965204fb;
+  color: rgb(240, 240, 240);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.control input {
+  margin-top: 0.3rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.invalidInput input {
+  margin-top: 0.3rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background-color: rgb(255, 219, 219);
+  border: 1px solid red;
+}
+
+.control input:focus {
+  background-color: rgb(228, 200, 165);
+  border: 1px solid rgb(109, 60, 3);
+}
+
+.nameErr {
+  margin-top: 0px;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.cityErr {
+  margin-top: 0px;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.adressErr {
+  margin-top: 0px;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.postCodeErr {
+  margin-top: 0px;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+}
